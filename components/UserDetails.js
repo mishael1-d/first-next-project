@@ -1,9 +1,9 @@
 function UserDetails({ user }) {
   return (
     <div className="container mx-auto mt-16">
-      <div className="flex">
-        <div className="bg-white p-4 mr-40 rounded-xl max-h-60">
-          <div className="w-40 h-40 rounded-full bg-slate-300 p-2 mb-4">
+      <div className=" block lg:flex">
+        <div className="bg-white p-4 mr-40 rounded-xl max-h-60 w-full lg:w-auto mb-4 lg:mb-0">
+          <div className="w-40 h-40 rounded-full bg-slate-300 p-2 mb-4 mx-auto lg:mx-0">
             <img
               className="rounded-full w-full h-full object-cover"
               src="https://img.freepik.com/free-photo/close-up-portrait-wonderful-child-with-shiny-brown-eyes-looking-with-interest-enthusiastic-little-girl-vintage-straw-hat-decorated-with-ribbon-posing-during-game-park_197531-3960.jpg?w=2000"
